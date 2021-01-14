@@ -1,3 +1,7 @@
+/*=====
+BASIC STYLES
+=====*/
+
 html,
 body {
   margin: 0;
@@ -22,12 +26,62 @@ body {
 }
 
 .quote {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem; 
+	font-family: 'Julius Sans One', sans-serif;
 }
 
 .author {
-  font-family: 'Crimson Text', serif;
-  font-size: 1.5rem;
-  font-style: italic;
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
 }
+
+/*=====
+MEDIA QUERIES
+=====*/
+
+@media only screen and (max-width: 600px){
+.quote {
+  font-size: 1.4rem; 
+}
+.author {
+  font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 600px){
+.quote {
+  font-size: 2.2rem; 
+}
+.author {
+  font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 768px){
+.quote {
+  font-size: 2.5rem; 
+}
+.author {
+  font-size: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 992px){
+.quote {
+  font-size: 2.8rem; 
+}
+.author {
+  font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+.quote {
+  font-size: 3rem; 
+	padding-top: 1rem;
+	line-height: 4rem;
+}
+.author {
+  font-size: 2rem;
+	}
+}
+
